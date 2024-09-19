@@ -54,13 +54,13 @@ gantt
     Task C       : 2024-02-01  , 20d
 ```
 
-
+# Graph
 ```mermaid
-graph TD;
-    A((A)) --> B((B));
-    A-->C;
-    B-->D;
-    C-->D;
+graph LR;
+    A((A)) --> B((B)) & C((C));
+    B--> E((E)) & D((D)) 
+    C--> X((X)) & Y((Y)) & Z((Z))
+    Y-->D
 ```
 
 
