@@ -80,6 +80,9 @@ graph LR;
         ))Fun((
             Join Swim class
             Go to theatre plays
+        ))Sport((
+            Join Swim class
+            Go to theatre plays
 ```
 
 
