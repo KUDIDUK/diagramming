@@ -63,10 +63,29 @@ graph LR;
     Y-->D
 ```
 
+# Mindmap
+```mermaid
+    mindmap
+    )Goals for 2023(
+        ))Family((
+            (Plan a trip together)
+            (Call parents weekly)
+        ))Health((
+            Less Carbs
+            ((Gym))
+            Nature walks
+        ))Career((
+            Learn new skill
+            Read more books
+        ))Fun((
+            Join Swim class
+            Go to theatre plays
+```
+
 
 ```plantuml
     @startuml
-    a->b
+    a->b : test
     @enduml
         
 ```
