@@ -28,7 +28,7 @@ A -[#purple]>   H: <font color="purple">to Queue
 
 autonumber 301 1
 A <-- H: <font color="#FFBBCC">to Participant
-@endum
+@enduml
 
 
 @startuml Test2
@@ -67,4 +67,70 @@ fc --> UC4
 g --> UC1
 g --> UC2
 g --> UC3
+@enduml
+
+
+
+@startuml
+skinparam linetype ortho
+left to right direction
+
+folder BASE {
+    folder foo {
+        component aaa
+    }
+    folder bar {
+        component bbb
+        folder ENV {
+              artifact ccc <<config>>
+              artifact ddd <<db>>
+        }
+    }
+
+}
+
+folder lorem {
+    folder ipsum {
+        component eee
+        component fff
+        component ggg
+    }
+    folder amet {
+        component panel <<jar>>
+    }
+    folder dolor {
+        artifact hhh <<config>>
+    }
+}
+
+folder fox {
+    folder jumps {
+    artifact jjj <<document>>
+    artifact kkk <<document>>
+    artifact mmm<<document>>
+
+    }
+    folder lazy {
+        artifact context.txt
+    }
+}
+
+aaa --> context.txt : write
+aaa --> bbb : launch
+bbb --> hhh : read
+bbb --> panel : launch
+panel --> ccc : read
+panel --> ddd : read
+
+panel --> eee : run
+panel --> fff : run
+panel --> ggg : run
+
+panel --> kkk : write
+eee --> jjj : read
+eee --> mmm: write
+
+ggg --> jjj : write
+ggg --> mmm: read
+
 @enduml
