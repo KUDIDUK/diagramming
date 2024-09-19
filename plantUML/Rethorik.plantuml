@@ -5,7 +5,7 @@
 +++_ Blickkontakt
 +++_ Körpersprache
 +++_ Pausen (Pausen muss man hören können)
-+++_ Bildhafte Sprache (Stillmittel)
++++_ Bildhafte Sprache (Stillmittel, Syntax)
 ++ Kundenbrille
 +++_ Meiner Meinung nach → Was halten Sie von?
 +++_ Ich glaube → Halten Sie es für möglich, dass...?
@@ -13,6 +13,41 @@
 +++_ Ich erlaube mir → Bitte gestatten Sie mir
 +++_ Ich gebe Ihnen → Sie erhalten von mir
 +++_ Wir liefern Ihnen → Sie bekommen von uns geliefert
+++ Storrytelling
++++ Theme
+++++_ Life Lesson
+++++_ Be good to everyone
+++++_ Love takes faith
++++ Setting
+++++_ Time (Zeit, Tageszeit, Jahreszeit, etc.)
+++++_ Location (Country, Planet, Town, Building)
+++++_ Stimmung
+++++_ Atmosphere
++++ Characters 
+++++_ Protagonist (good guy)
+++++_ Antagonist (bad guy)
+++++_ People, Animals, Things, Fantasy
++++ Conflict
+++++_ Problemstellung 
++++++_ Man vs. Man 
++++++_ Man vs. Nature
++++++_ Man vs. Himself
++++++_ Man vs. Society
+++++_ Troubleshooting
+++++_ Confliktlösung am Schluss
++++ Plot
+++++_ Introduction
++++++_ Setting
++++++_ Background
++++++_ Characters
+++++_ Rising Action
++++++_ Serios of actions and desicions
++++++_ Background Situations
+++++_ Climax
++++++_ Consequences from desisions and actions
+++++_ Falling Action
++++++_ Life after
+++++_ Resolution
 ++ Schlagfertigkeit
 +++_ **Dummstellen**
 ++++ akt: So tun als ob "nix verstehen" \ncon: gute Frage, beantworte ich dir gerne am Ende
@@ -43,18 +78,6 @@
 +++_ **Totschlagargumente**
 +++_ **Affentaktik***
 ++++ akt: Oh das kann aber so nicht funktionieren \ncon: Oh, dass muss Ihnen jetzt nicht peinlich \n\tsein wenn sie nicht wissen wie das funktioniert. \n\tDafür bin ich ja da.
-++ SUA
-+++ Steuerobjekte
-++++_ Kundenakten
-++++_ Abnahmestellen
-++++_ Zähler
-+++ Stammdaten
-++++_ Abmeldegründe
-++++_ Branchenverzeichnis
-++++_ Nebenforderungen
-++++_ Ortsteile
-++++_ Straßenverzeichnis
-++++_ Zahlenformate
 -- Konzepte
 ---_ Chronologie
 ---- Vergangenheit → Gegenwart → Zukunft
