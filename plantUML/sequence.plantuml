@@ -1,0 +1,70 @@
+
+@startuml Test
+skinparam SequenceMessageAlignment left
+skinparam ResponseMessageBelowArrow true
+
+autonumber 101 1 "<font color=black><b>[000]" 
+
+
+participant "Some\nName" as A #FFBBCC
+actor Actor as B #red
+boundary Boundary as C #blue
+control Control as D #yellow
+entity Entity as E #black
+database Database as F #brown
+collections Collections as G #green
+queue Queue as H #purple
+
+A <[#FFBBCC]--x A: <font color=#FFBBCC>Self
+A -[#red]>x     B: <font color=red><b>to Actor
+A -[#blue]>>    C: <font color=blue><i>to Boundary
+A -[#orange]\   D: <font color=orange><u>to Control
+
+autonumber 201 1 "<font color=black><b>(000)" 
+A -[#black]\\   E: <font color=black>to Entity
+A -[#brown]>o   F: <font color=brown>to Database
+A -[#green]>    G: <font color=green>to Collections
+A -[#purple]>   H: <font color="purple">to Queue
+
+autonumber 301 1
+A <-- H: <font color="#FFBBCC">to Participant
+@endum
+
+
+@startuml Test2
+participant A  [
+    =Title
+    ----
+    ""subtitle""
+    ----
+    vorname
+    nachname
+] 
+
+actor Bob as B
+
+A->B
+@enduml
+
+
+@startuml
+left to right direction
+actor Guest as g
+
+package Professional {
+    actor Chef as c
+    actor "Food Critic" as fc
+}
+
+package Restaurant {
+    usecase "Eat Food" as UC1
+    usecase "Pay for Food" as UC2
+    usecase "Drink" as UC3
+    usecase "Review" as UC4
+}
+
+fc --> UC4
+g --> UC1
+g --> UC2
+g --> UC3
+@enduml

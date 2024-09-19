@@ -1,0 +1,68 @@
+@startuml CIP
+title CIP ER-Diagramm
+
+
+
+
+map STAM.adresse #gray{
+    pk => adressnr\npgid
+}
+map STAM.fbkto {
+    pk => hhj\nfbkontonr
+    fk => kontoref
+}
+
+map PLAN.hhplan {
+    pk => hhj\nindex
+    fk => Bob
+}
+
+'████████████████████████████████████████████████████████████████████████████████████████████
+map FIBU.ao {
+    pk => hhj\naonr
+    fk => Bob
+} 
+map FIBU.buchvv {
+    pk => hhj\nindex
+    fk => Bob
+}
+map FIBU.vvbeleg {
+    pk => hhj\nindex
+    fk => Bob
+}
+map FIBU.aobew {
+    pk => hhj\naonr
+}
+map FIBU.buchpers {
+    pk => hhj\nindex
+    fk => Bob
+}
+map FIBU.buchsach {
+    pk => hhj\nindex
+    fk => Bob
+}
+map  FIBU.skbeleg  {
+    pk => hhj\nindex
+    fk => Bob
+    . => <font color=#gray>Buchungsbelege \nfür Einzelrechnungen \naus verrechnungskonten 
+}
+
+
+
+
+
+STAM.adresse ||..|{ FIBU.ao         #blue;line.dotted;text:blue :""
+STAM.adresse ||..|{ FIBU.buchvv     #blue;line.dotted;text:blue :""
+STAM.adresse ||..|{ FIBU.buchsach   #blue;line.dotted;text:blue :""
+STAM.adresse ||..|{ FIBU.buchpers   #blue;line.dotted;text:blue :""
+
+
+FIBU.ao }|.|{ FIBU.buchvv           
+FIBU.ao }|.|{ FIBU.buchsach         
+FIBU.ao ||..|{ FIBU.aobew           #blue;line.dotted;text:blue :""
+FIBU.buchvv ||..|{ FIBU.vvbeleg     #blue;line.dotted;text:blue :""
+FIBU.buchsach .. FIBU.skbeleg       #blue;line.dotted;text:blue :""
+
+
+
+@enduml

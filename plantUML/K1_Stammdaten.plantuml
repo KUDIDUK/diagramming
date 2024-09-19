@@ -1,0 +1,40 @@
+
+@startmindmap Stammdaten
++[#FFBBCC] Stammdaten\nÜbernahme
+-- BASIS
+---_ Erfassungsvorgaben
+++ FIBU
++++_ Personen
++++_ Debitoren
++++_ Kreditoren
++++_ Sachkonten
++++_ Zahlwege
+++ ANBU
++++_ Anlagegüter
++++_ Anlagegruppen
+-- KORE
+---_ Kosten-/Erlösarten
+---_ Kostenstellen
+---_ Kostenträger
+---_ Umlage-/Leistungseinheiten
+-- PLAN
+---_ Produkte
+---_ Teilhaushalte
+---_ Budgets
+---_ Produktsachkonten
+---_ Maßnahmen
+---_ Aufträge
+---_ Statistische Produkte
+++ SUA
++++ Steuerobjekte
+++++_ Kundenakten
+++++_ Abnahmestellen
+++++_ Zähler
++++ Stammdaten
+++++_ Abmeldegründe
+++++_ Branchenverzeichnis
+++++_ Nebenforderungen
+++++_ Ortsteile
+++++_ Straßenverzeichnis
+++++_ Zahlenformate
+@endmindmap

@@ -1,0 +1,59 @@
+
+@startmindmap Diagramming-Tools
+*[#FFBBCC] Diagramming Tool 
+** static Drawing
+*** Visio
+*** draw.io 
+** Repository Modelling 
+*** Sparx Enterprise Architect
+*** Archi (ArchiMate)
+**[#FFBBCC] Diagramming as Code
+***[#FFBBCC] PlantUML
+****_  UML 
+*****_ <color:#FFBBCC>startuml
+*****_ <color:#FFBBCC>Usecase
+*****_ <color:#FFBBCC>Class
+*****_ <color:#FFBBCC>Object
+*****_ <color:#FFBBCC>Activity
+****_ !UML
+*****_ <color:#FFBBCC>JSON
+*****_ <color:#FFBBCC>YAML
+*****_ <color:#FFBBCC>EBNF
+*****_ <color:#FFBBCC>REGEX
+*****_ <color:#FFBBCC>Network
+*****_ <color:#FFBBCC>startmindmap
+*** Mermaid 
+** Other Specific Tool 
+*** MS Project for Gant-Chart 
+*** FreePlane for Mindmap
+@endmindmap
+
+
+
+@startmindmap Diagramming-Tools2
+<style>
+mindmapDiagram {
+  .myStyle * {
+    BackgroundColor lightgreen
+  }
+}
+</style>
+
+*[#FFBBCC] Diagramming Tool 
+** static Drawing 
+*** Visio
+*** draw.io 
+** Repository Modelling 
+*** Sparx Enterprise Architect
+*** Archi (ArchiMate)
+** Diagramming as Code <<myStyle>>
+*** <color:red> PlantUML 
+****_ <color:red> UML 
+****_ <color:red> !UML
+*** Mermaid 
+** Other Specific Tool 
+*** MS Project for Gant-Chart 
+*** FreePlane for Mindmap
+@endmindmap
+
+
