@@ -39,3 +39,11 @@
         end
         
 ```
+
+
+```plantuml
+    @startuml
+    a->b
+    @enduml
+        
+```
